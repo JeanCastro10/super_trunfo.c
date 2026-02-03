@@ -35,13 +35,13 @@ scanf("%s", cidade1);
 printf("POPULAÇÃO: ");
 scanf("%d", &populacao1);
 
-printf("ÁREA EM KM²: ");
+printf("ÁREA EM KM2: ");
 scanf("%f", &area1);
 
 printf("PIB: ");
 scanf("%f", &pib1);
 
-printf("PONTOS TURÍSTICOS: ");
+printf("PONTOS TURISTICOS: ");
 scanf("%d", &pontos1);
 
                 //LEITURA CARTA 2
@@ -60,25 +60,25 @@ scanf("%s", cidade2);
 printf("POPULAÇÃO: ");
 scanf("%d", &populacao2);
 
-printf("ÁREA EM KM²: ");
+printf("ÁREA EM KM2: ");
 scanf("%f", &area2);
 
 printf("PIB: ");
 scanf("%f", &pib2);
 
-printf("PONTOS TURÍSTICOS: ");
+printf("PONTOS TURISTICOS: ");
 scanf("%d", &pontos2);
 
                 //Impressão de Cartas
 
-printf("------Cartas cadrastradas------\n");
+printf("------Cartas cadastradas------\n");
 printf("======CARTA 1======\n");
 
 printf("Estado %c\n", estado1);
 printf("CODIGO DA CARTA: %s\n", codigo1);
 printf("CIDADE: %s\n", cidade1);
 printf("POPULAÇÃO: %d\n", populacao1);
-printf("ÁREA EM KM²: %.2f \n", area1);
+printf("AREA EM KM2: %.2f \n", area1);
 printf("PIB: %.2f \n", pib1);
 printf("PONTOS TURÍSTICOS: %d\n", pontos1);
 
@@ -88,10 +88,10 @@ printf("Estado %c\n", estado2);
 printf("CODIGO DA CARTA: %s\n", codigo2);
 printf("CIDADE: %s\n", cidade2);
 printf("POPULACAO: %d\n", populacao2);
-printf("ÁREA EM KM²: %.2f \n", area2);
+printf("AREA EM KM2: %.2f \n", area2);
 printf("PIB: %.2f \n", pib2);
 printf("PONTOS TURISTICOS: %d\n", pontos2);
 
-    
     return 0;
+}
     
