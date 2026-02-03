@@ -3,15 +3,14 @@
 int main(){
 //----CARTA 1
 char estado1;
-char codigo1 [10];        //TRING
-char cidade1 [20];       //string
+char codigo1 [40];        //STRING
+char cidade1 [40];       //STRING
 int populacao1;
 float area1;
 float pib1;
 int pontos1;
 
  //----carta 2
-
 char estado2;
 char codigo2 [40];  //STRING
 char cidade2 [40];  //STRING
@@ -42,7 +41,7 @@ scanf("%f", &area1);
 printf("PIB: ");
 scanf("%f", &pib1);
 
-printf("PONTOS TURISTICOS: ");
+printf("PONTOS TURÍSTICOS: ");
 scanf("%d", &pontos1);
 
                 //LEITURA CARTA 2
@@ -67,7 +66,7 @@ scanf("%f", &area2);
 printf("PIB: ");
 scanf("%f", &pib2);
 
-printf("PONTOS TURISTICOS: ");
+printf("PONTOS TURÍSTICOS: ");
 scanf("%d", &pontos2);
 
                 //Impressão de Cartas
@@ -79,7 +78,7 @@ printf("Estado %c\n", estado1);
 printf("CODIGO DA CARTA: %s\n", codigo1);
 printf("CIDADE: %s\n", cidade1);
 printf("POPULAÇÃO: %d\n", populacao1);
-printf("AREA EM KM2: %.2f \n", area1);
+printf("ÁREA EM KM²: %.2f \n", area1);
 printf("PIB: %.2f \n", pib1);
 printf("PONTOS TURÍSTICOS: %d\n", pontos1);
 
@@ -89,7 +88,7 @@ printf("Estado %c\n", estado2);
 printf("CODIGO DA CARTA: %s\n", codigo2);
 printf("CIDADE: %s\n", cidade2);
 printf("POPULACAO: %d\n", populacao2);
-printf("AREA EM KM2: %.2f \n", area2);
+printf("ÁREA EM KM²: %.2f \n", area2);
 printf("PIB: %.2f \n", pib2);
 printf("PONTOS TURISTICOS: %d\n", pontos2);
 
